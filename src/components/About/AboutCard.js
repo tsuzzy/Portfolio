@@ -7,34 +7,39 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          <p style={{textAlign: "justify"}}>
+            Hi everyone, welcome!<br/>
+            I am <span className="purple"> Ruixin Song (宋睿昕) </span>,
+            often referred to simply as <span className="purple"> Rui </span>
+            <br/>
+            I'm currently pursuing my Master's in Computer Science at Memorial University of Newfoundland, supervised
+            by <span className="purple">Dr. Amilcar Soares Junior</span>
+            <br/>
+            <br/>
+            My research work focuses on marine data mining, complex network, graph deep learning with practical
+            application in marine shipping traffic networks and ecological protection.
+            <br/>
+            Before my journey in Memorial University, I have completed Bachelor of Engineering in Spatial Information and Digital Technology at Shanghai Ocean University in China.
+            <br/>
+            <br/>
+            In addition to my daily work, I also love:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring new techs in academia and industry
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Hiking, skateboarding
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Indie bands (Joywave, Glass Animals, The Chairs, Collage), new classical (Ludovico Einaudi) and pop music (recently into K-pop)
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            Everything I am doing is for better understanding this world.{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          {/*<footer className="blockquote-footer">Soum</footer>*/}
         </blockquote>
       </Card.Body>
     </Card>
