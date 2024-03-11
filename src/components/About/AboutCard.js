@@ -32,7 +32,7 @@ function AboutCard() {
               <ImPointRight /> Hiking, skateboarding
             </li>
             <li className="about-activity">
-              <ImPointRight /> Indie bands (Joywave, Glass Animals, The Chairs, Collage), new classical (Ludovico Einaudi) and pop music (recently into K-pop)
+              <ImPointRight /> Indie bands, new classical and pop music
             </li>
           </ul>
 

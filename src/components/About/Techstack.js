@@ -9,6 +9,7 @@ import {
     SiLatex,
     SiPostgresql,
     SiWebgl,
+    SiFlask,
 } from "react-icons/si";
 import {
     DiMysql,
@@ -55,7 +56,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
         <Col xs={4} md={2} className="tech-icons">
-            <DiJava />
+            <SiWebgl />
         </Col>
       {/*<Col xs={4} md={2} className="tech-icons">*/}
       {/*  <TbBrandGolang />*/}
@@ -66,6 +67,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiFlask />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiJava />
+        </Col>
       {/*<Col xs={4} md={2} className="tech-icons">*/}
       {/*  <SiSolidity />*/}
       {/*</Col>*/}
