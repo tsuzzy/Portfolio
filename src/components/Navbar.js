@@ -39,10 +39,11 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          {/*<img src={logo} className="img-fluid logo" alt="brand"/>*/}
+          {/*<img src={selfie} className="img-fluid logo" alt="brand"/>*/}
         </Navbar.Brand>
         <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
+            aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
@@ -52,12 +53,12 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
+          <Nav className="ms-auto" defaultActiveKey="#about">
+            {/*<Nav.Item>*/}
+            {/*  <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>*/}
+            {/*    <AiOutlineHome style={{ marginBottom: "2px" }} /> Home*/}
+            {/*  </Nav.Link>*/}
+            {/*</Nav.Item>*/}
 
             <Nav.Item>
               <Nav.Link
