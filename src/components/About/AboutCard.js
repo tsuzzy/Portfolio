@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{textAlign: "justify"}}>
-            Hi everyone, welcome!<br/>
+            Hi everyone!<br/>
             I am <span className="purple"> Ruixin Song (宋睿昕) </span>,
             often referred to simply as <span className="purple"> Rui </span>
             <br/>
@@ -22,7 +22,7 @@ function AboutCard() {
             Before my journey in Memorial University, I have completed Bachelor of Engineering in Spatial Information and Digital Technology at Shanghai Ocean University in China.
             <br/>
             <br/>
-            In addition to my daily work, I also love:
+            Aside from my daily work, I also love:
           </p>
           <ul>
             <li className="about-activity">
