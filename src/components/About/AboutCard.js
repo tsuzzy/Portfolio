@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{textAlign: "justify"}}>
             Hi everyone!<br/>
-            I am <span className="purple"> Ruixin Song (宋睿昕) </span>,
+            I am <span className="purple"> Ruixin Song</span>,
             often referred to simply as <span className="purple"> Rui </span>
             <br/>
             I'm currently pursuing my Master's in Computer Science at Memorial University of Newfoundland, supervised
