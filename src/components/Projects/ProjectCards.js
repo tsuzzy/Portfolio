@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { IoDocumentText } from "react-icons/io5";
 
 function ProjectCards(props) {
   return (
@@ -13,12 +14,26 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
+        
+        {props.ghLink && (
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
+        )}
         {"\n"}
         {"\n"}
+
+        {!props.isBlog && props.paperLink && (
+        <Button 
+          variant="primary" 
+          href={props.paperLink} 
+          target="_blank"
+          style={{ marginLeft: "10px" }}>
+          <IoDocumentText /> &nbsp;
+          {"Paper"}
+        </Button>
+        )}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
