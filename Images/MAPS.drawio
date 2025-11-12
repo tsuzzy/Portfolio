@@ -1,11 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.9">
   <diagram name="Page-1" id="FTec4NnoFGaLX4r5JwVQ">
-    <mxGraphModel dx="814" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="970" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;curved=1;strokeColor=light-dark(#aa7941, #ededed);" edge="1" parent="1" source="n16z2WkiKZfBx87YcBvs-2" target="n16z2WkiKZfBx87YcBvs-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="170" />
+              <mxPoint x="660" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="n16z2WkiKZfBx87YcBvs-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Physics-Informed Neural Networks&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="400" y="170" width="150" height="90" as="geometry" />
@@ -73,15 +78,13 @@
         <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeColor=light-dark(#aa7941, #ededed);" edge="1" parent="1" source="n16z2WkiKZfBx87YcBvs-12" target="n16z2WkiKZfBx87YcBvs-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="728" y="230" />
-              <mxPoint x="690" y="230" />
-              <mxPoint x="690" y="220" />
-              <mxPoint x="625" y="220" />
+              <mxPoint x="727" y="230" />
+              <mxPoint x="625" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n16z2WkiKZfBx87YcBvs-12" value="RL-based Maritime Route Optimization" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="710" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="255" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="n16z2WkiKZfBx87YcBvs-13" value="Contrastive Similarity Learning" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="700" y="410" width="120" height="60" as="geometry" />
@@ -105,19 +108,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n16z2WkiKZfBx87YcBvs-16" value="Underwater Acoustic" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="380" y="70" width="110" height="60" as="geometry" />
+          <mxGeometry x="340" y="70" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeColor=light-dark(#aa7941, #ededed);" edge="1" parent="1" source="n16z2WkiKZfBx87YcBvs-17" target="n16z2WkiKZfBx87YcBvs-6">
+        <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;strokeColor=light-dark(#aa7941, #ededed);" edge="1" parent="1" source="n16z2WkiKZfBx87YcBvs-17" target="n16z2WkiKZfBx87YcBvs-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n16z2WkiKZfBx87YcBvs-17" value="Semantic-enriched Biological Risk Modeling" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="610" y="130" width="150" height="60" as="geometry" />
+          <mxGeometry x="660" y="150" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;strokeColor=light-dark(#aa7941, #ededed);endArrow=none;endFill=0;" edge="1" parent="1" source="TKc-Y6RMwU6vtsZ4kgGr-1" target="n16z2WkiKZfBx87YcBvs-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-1" value="Multimodal Geospatial Decision Support" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
-          <mxGeometry x="500" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=light-dark(#aa7941, #ededed);curved=1;" edge="1" parent="1" source="TKc-Y6RMwU6vtsZ4kgGr-18" target="n16z2WkiKZfBx87YcBvs-9">
           <mxGeometry relative="1" as="geometry">
@@ -138,6 +141,12 @@
         </mxCell>
         <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-21" value="Data Accessibility &amp;amp; Collaboration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="575" y="480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=1;strokeColor=light-dark(#aa7941, #ededed);endArrow=none;endFill=0;" edge="1" parent="1" source="TKc-Y6RMwU6vtsZ4kgGr-26" target="n16z2WkiKZfBx87YcBvs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKc-Y6RMwU6vtsZ4kgGr-26" value="&lt;h3&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Climate Analogy Detection&lt;/font&gt;&lt;/span&gt;&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="590" y="80" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
